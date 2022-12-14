@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kevincraft:item/iron_gold_hoe"
+  }
+}
