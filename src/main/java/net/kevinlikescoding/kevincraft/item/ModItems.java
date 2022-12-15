@@ -15,6 +15,8 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_GOLD_SHOVEL = ITEMS.register("iron_gold_shovel", () -> new ShovelItem(ModTiers.IRON_GOLD_INGOT, 0, 1f, new Item.Properties().tab(ModCreativeModeTab.KEVINCRAFT_TAB)));
     public static final RegistryObject<Item> IRON_GOLD_HOE = ITEMS.register("iron_gold_hoe", () -> new HoeItem(ModTiers.IRON_GOLD_INGOT, 0, 0f, new Item.Properties().tab(ModCreativeModeTab.KEVINCRAFT_TAB)));
     public static final RegistryObject<Item> IRON_GOLD_SWORD = ITEMS.register("iron_gold_sword", () -> new SwordItem(ModTiers.IRON_GOLD_INGOT, 2, 3f, new Item.Properties().tab(ModCreativeModeTab.KEVINCRAFT_TAB)));
+    public static final RegistryObject<Item> IRON_APPLE = ITEMS.register("iron_apple", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.KEVINCRAFT_TAB).food(ModFoods.IRON_APPLE)));
+    public static final RegistryObject<Item> IRON_GOLD_APPLE = ITEMS.register("iron_gold_apple", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.KEVINCRAFT_TAB).food(ModFoods.IRON_GOLD_APPLE)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
