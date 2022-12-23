@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kevincraft:iron_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "kevincraft:iron_gold_chestplate"
+  }
+}
